@@ -1,0 +1,28 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+  table-layout: fixed;
+  width: 80%;
+  border-collapse: collapse;
+  border: 2px solid purple;
+}
+
+th, td {
+  padding: 5px;
+  border: 1px solid grey;
+  text-align: center;
+}
+
+thead th {
+  background-color: #ffd728;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #c2f2f5;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #bdcdf7;
+}
